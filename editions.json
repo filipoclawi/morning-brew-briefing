@@ -158,5 +158,39 @@
         "url": "https://www.morningbrew.com/issues/25-years-later"
       }
     ]
+  },
+  {
+    "end": "2026-10-02",
+    "start": "2026-09-26",
+    "sourceCount": 3,
+    "cutoff": "2026-10-02T23:13:51+02:00",
+    "coverage": "Week-to-date through the stated cutoff; only September 29, September 30 and October 2 issues were available. No issues were available for the September 12–25 archive windows.",
+    "cards": [
+      {
+        "title": "Global bond volatility raises financing pressure",
+        "summary": "The October 2 issue reports fresh multidecade yield highs before some markets reversed course. Inflation, energy disruption and fiscal deficits were weighing on government debt, with consequences for mortgage and corporate borrowing costs.",
+        "url": "https://www.morningbrew.com/issues/still-going-strong"
+      },
+      {
+        "title": "Oura pauses its stock-market debut",
+        "summary": "Oura postponed its planned IPO, citing market uncertainty despite reported investor demand. The September 30 issue also reports delays at other issuers, showing that a strong fundraising year does not guarantee an open listing window.",
+        "url": "https://www.morningbrew.com/issues/hold-your-horses"
+      },
+      {
+        "title": "AI implementation supports consulting demand",
+        "summary": "Accenture reported 7% quarterly revenue growth and a stronger outlook, according to the October 2 issue. Demand for help implementing AI is supporting consulting work, although that does not settle the longer-term threat to outsourcing revenue.",
+        "url": "https://www.morningbrew.com/issues/still-going-strong"
+      },
+      {
+        "title": "Nike plans job cuts after another revenue decline",
+        "summary": "Nike reported a second consecutive quarter of declining revenue as it works to rebuild retail relationships. The company announced plans to reduce headcount, but said specific cuts would not be decided until 2027.",
+        "url": "https://www.morningbrew.com/issues/still-going-strong"
+      },
+      {
+        "title": "Nvidia expands its buyback alongside an AI-security push",
+        "summary": "The September 29 issue reports an additional $150 billion share-repurchase authorization and the unveiling of OpenShell safeguards for AI agents. Authorization is not completed spending, and Nvidia’s claims about preventing attacks are not independent proof of effectiveness.",
+        "url": "https://www.morningbrew.com/issues/in-orbit"
+      }
+    ]
   }
 ]
