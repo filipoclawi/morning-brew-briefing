@@ -25,9 +25,12 @@ with sync_playwright() as p:
     page.goto(page.locator('nav a[aria-current="page"]').evaluate('(a)=>a.href')+'index.html')
    assert page.locator('article').count()==len(e['cards'])
    if e==data[-1]:page.screenshot(path=str(r/f'test-results-{width}.png'),full_page=True)
+   page.screenshot(path=str(r/f'test-results-{e["end"]}-{width}.png'),full_page=True)
  b.close()
 for f in [r/'index.html',r/'editions.json',r/'styles.css',r/'README.md',*r.glob('editions/*/index.html')]:
  text=f.read_text();assert not re.search(r'@|Label_\d+|mbuuid|mbcid|utm_|/home/|kid=|ce0ae909|Armin|Hermes',text,re.I),f
-assert sum(e['sourceCount'] for e in data)==12
-assert len(data)==6 and sum(len(e['cards']) for e in data)==30
-print('PASS: root and 6 archives; 390/1440px; 30 unique cards; 12 source issues; navigation, links, privacy; no errors or overflow')
+assert sum(e['sourceCount'] for e in data)==23
+assert len(data)==8 and sum(len(e['cards']) for e in data)==40
+assert data[-1]['end']=='2026-10-16'
+assert {e['end']:e['sourceCount'] for e in data if e['end']>='2026-10-09'}=={'2026-10-09':6,'2026-10-16':5}
+print('PASS: root and 8 archives; 390/1440px; 40 unique cards; 23 source issues; navigation, links, privacy; no errors or overflow')

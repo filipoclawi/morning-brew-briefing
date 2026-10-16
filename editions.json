@@ -192,5 +192,73 @@
         "url": "https://www.morningbrew.com/issues/in-orbit"
       }
     ]
+  },
+  {
+    "end": "2026-10-09",
+    "start": "2026-10-03",
+    "sourceCount": 6,
+    "cutoff": "2026-10-16T23:10:29+02:00",
+    "coverage": "Reconstructed from six available issues dated October 3–8, including the Delicacy Brew editorial special. No October 9 issue was available; the special was reviewed but contributed no retained story.",
+    "cards": [
+      {
+        "title": "Weak hiring sharpens the Fed’s trade-off",
+        "summary": "The October 3 issue reports just 29,000 additional US jobs in September, unemployment of 4.2% and downward revisions to summer hiring. Minutes covered on October 8 still showed officials anticipating another rate increase this year, with timing dependent on incoming data.",
+        "url": "https://www.morningbrew.com/issues/slow-growing"
+      },
+      {
+        "title": "Energy relief meets a costly winter forecast",
+        "summary": "G7 countries and allies agreed to release 100 million barrels of oil and diesel over four months, according to the October 3 issue. The October 8 issue nevertheless reports an EIA forecast of winter heating-oil prices 34% above the previous year—a forecast, not a realised household bill.",
+        "url": "https://www.morningbrew.com/issues/the-cost-of-cozy"
+      },
+      {
+        "title": "New open-weight models target business buyers",
+        "summary": "Reflection announced Beam while Mistral previewed Large 4 for developers, with a wider release scheduled for October 27. Their claimed capabilities and customisation options could pressure closed-model vendors, but the newsletter did not independently establish performance parity.",
+        "url": "https://www.morningbrew.com/issues/the-new-players"
+      },
+      {
+        "title": "AI imports widen the US trade deficit",
+        "summary": "The October 7 issue reports an August trade deficit of $105.6 billion, up 13.7% from July despite tariffs. Imports associated with AI infrastructure, petroleum and gold contributed to the widening gap.",
+        "url": "https://www.morningbrew.com/issues/the-new-players"
+      },
+      {
+        "title": "Hybrid demand exposes Detroit’s product gap",
+        "summary": "Asian automakers captured more than half of US new-car purchases in the third quarter, according to the October 5 issue, as demand for hybrids strengthened. Detroit’s limited hybrid range leaves it less able to respond quickly to higher fuel costs.",
+        "url": "https://www.morningbrew.com/issues/deets-peeping"
+      }
+    ]
+  },
+  {
+    "end": "2026-10-16",
+    "start": "2026-10-10",
+    "sourceCount": 5,
+    "cutoff": "2026-10-16T23:10:29+02:00",
+    "coverage": "Week-to-date through the stated cutoff, based on five available issues dated October 12–16. No October 10–11 issues were available; later arrivals can update this edition.",
+    "cards": [
+      {
+        "title": "Inflation increases pressure ahead of the Fed meeting",
+        "summary": "The October 15 issue reports September consumer inflation of 3.7% and core inflation of 2.6%, both above forecasts, with energy costs feeding through the economy. Market expectations shifted towards a rate increase, but the October 27–28 meeting had not yet taken place.",
+        "url": "https://www.morningbrew.com/issues/piping-hot"
+      },
+      {
+        "title": "CoreWeave puts AI’s borrowing risk in focus",
+        "summary": "The October 16 issue describes a sell-off in CoreWeave debt as investors questioned further borrowing on top of a reported $50 billion debt pile. Higher-rate fears and ties to supplier-investor Nvidia intensified scrutiny; market-implied default risk is not a finding that insolvency is inevitable.",
+        "url": "https://www.morningbrew.com/issues/rubber-meets-the-roadster"
+      },
+      {
+        "title": "Russian diesel plan offers uncertain price relief",
+        "summary": "The October 12 issue reports Trump’s announcement that Russian diesel would reach global markets, while energy experts doubted the proposed volumes would materially lower prices. By October 16, the newsletter reported renewed attacks on Russian refineries after the announced energy ceasefire broke down.",
+        "url": "https://www.morningbrew.com/issues/energy-transfer"
+      },
+      {
+        "title": "Character.AI seeks bankruptcy protection and an asset sale",
+        "summary": "The October 14 issue reports Character.AI’s bankruptcy amid monetisation problems and legal pressure. A $20 million agreement to sell assets to Disney remained open to higher bids; claims about harmful chatbot behaviour were allegations in lawsuits, not established findings here.",
+        "url": "https://www.morningbrew.com/issues/character-flaws"
+      },
+      {
+        "title": "Netflix cuts staff as growth slows",
+        "summary": "Netflix is cutting roughly 1,000 jobs, or 6% of its workforce, according to reporting cited in the October 15 issue. Slower revenue and engagement growth, competition from social video and the enlarged Skydance group raise the pressure on its spending priorities.",
+        "url": "https://www.morningbrew.com/issues/piping-hot"
+      }
+    ]
   }
 ]
