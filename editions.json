@@ -196,9 +196,9 @@
   {
     "end": "2026-10-09",
     "start": "2026-10-03",
-    "sourceCount": 6,
-    "cutoff": "2026-10-16T23:10:29+02:00",
-    "coverage": "Reconstructed from six available issues dated October 3–8, including the Delicacy Brew editorial special. No October 9 issue was available; the special was reviewed but contributed no retained story.",
+    "sourceCount": 7,
+    "cutoff": "2026-10-17T09:56:49+02:00",
+    "coverage": "Available-source coverage reconstructed from all seven issues dated October 3–9, including the Delicacy Brew special. The October 9 issue was recovered after the earlier Inbox-only run.",
     "cards": [
       {
         "title": "Weak hiring sharpens the Fed’s trade-off",
@@ -224,15 +224,21 @@
         "title": "Hybrid demand exposes Detroit’s product gap",
         "summary": "Asian automakers captured more than half of US new-car purchases in the third quarter, according to the October 5 issue, as demand for hybrids strengthened. Detroit’s limited hybrid range leaves it less able to respond quickly to higher fuel costs.",
         "url": "https://www.morningbrew.com/issues/deets-peeping"
+      },
+      {
+        "title": "Starbucks–Chipotle takeover talk remains preliminary",
+        "summary": "The October 9 issue reports that Starbucks explored buying Chipotle, citing the Financial Times, but says no formal offer had been reported. International expansion could be a rationale; a completed deal or agreed terms should not be inferred from the market reaction.",
+        "url": "https://www.morningbrew.com/issues/from-sam-a-to-mark-z",
+        "duration": "Read time not supplied"
       }
     ]
   },
   {
     "end": "2026-10-16",
     "start": "2026-10-10",
-    "sourceCount": 5,
-    "cutoff": "2026-10-16T23:10:29+02:00",
-    "coverage": "Week-to-date through the stated cutoff, based on five available issues dated October 12–16. No October 10–11 issues were available; later arrivals can update this edition.",
+    "sourceCount": 7,
+    "cutoff": "2026-10-17T09:56:49+02:00",
+    "coverage": "Available-source coverage reconstructed from all seven issues dated October 10–16, including the Horror Movie Brew special. October 10–11 sources were already archived and were recovered after the earlier Inbox-only run.",
     "cards": [
       {
         "title": "Inflation increases pressure ahead of the Fed meeting",
@@ -258,6 +264,18 @@
         "title": "Netflix cuts staff as growth slows",
         "summary": "Netflix is cutting roughly 1,000 jobs, or 6% of its workforce, according to reporting cited in the October 15 issue. Slower revenue and engagement growth, competition from social video and the enlarged Skydance group raise the pressure on its spending priorities.",
         "url": "https://www.morningbrew.com/issues/piping-hot"
+      },
+      {
+        "title": "Low-budget horror becomes a studio talent pipeline",
+        "summary": "The October 11 editorial special describes studios pursuing YouTube filmmakers and online horror stories after low-budget box-office successes. Lower production costs and existing fan communities can improve the economics, but individual hits do not establish that every project will be profitable.",
+        "url": "https://www.morningbrew.com/issues/horror-movie-brew",
+        "duration": "Read time not supplied"
+      },
+      {
+        "title": "Fuel costs force Delta to cut its outlook",
+        "summary": "The October 10 issue reports that Delta reduced its full-year earnings forecast despite strong travel demand and growing premium-seat revenue. An unexpectedly large fuel bill illustrates how the energy shock can erode airline margins even when sales rise.",
+        "url": "https://www.morningbrew.com/issues/shuffled-around",
+        "duration": "Read time not supplied"
       }
     ]
   }
