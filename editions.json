@@ -278,5 +278,65 @@
         "duration": "Read time not supplied"
       }
     ]
+  },
+  {
+    "end": "2026-10-23",
+    "start": "2026-10-17",
+    "sourceCount": 7,
+    "cutoff": "2026-10-26T13:04:00.446915+01:00",
+    "coverage": "Available-source coverage of all seven issues dated October 17–23, including the Basketball Brew editorial special. Five material developments retained after ranking; advertisements, quizzes and lower-signal items omitted.",
+    "cards": [
+      {
+        "title": "AI financing jitters spread to new listings",
+        "summary": "The October 21 issue reports that South Korean data-centre provider Elice fell 32% on its stock-market debut despite rapid revenue growth. The week’s later issues describe renewed AI-overspending concerns and a tech-stock sell-off, underscoring the gap between infrastructure demand and investors’ willingness to finance it.",
+        "duration": "Read time not supplied",
+        "url": "https://www.morningbrew.com/issues/bumpy-ride"
+      },
+      {
+        "title": "Critical PHP patches become a deployment priority",
+        "summary": "The October 22 issue reports a severity-9.2 vulnerability in PHP, a language used by roughly 70% of websites, and urges operators to deploy newly released patches. It describes risks of server-code execution and data theft—not evidence that every PHP site has been compromised.",
+        "duration": "Read time not supplied",
+        "url": "https://www.morningbrew.com/issues/very-vulnerable"
+      },
+      {
+        "title": "Tesla–SpaceX merger remains exploratory",
+        "summary": "Musk’s companies formed committees to explore a merger, according to the October 21–22 issues; a combination could be worth roughly $3.5 trillion. No deal was agreed, and the projected valuation and control benefits remain estimates rather than completed outcomes.",
+        "duration": "Read time not supplied",
+        "url": "https://www.morningbrew.com/issues/very-vulnerable"
+      },
+      {
+        "title": "Meta faces a $25 billion privacy judgment",
+        "summary": "The October 22 issue reports that a New Mexico judge ordered Meta to pay $25 billion in a consumer-protection case stemming from the Cambridge Analytica data scandal. The judgment follows a jury verdict; it should not be confused with money already paid or a final resolution of all litigation.",
+        "duration": "Read time not supplied",
+        "url": "https://www.morningbrew.com/issues/very-vulnerable"
+      },
+      {
+        "title": "Fuel and borrowing costs squeeze travel and housing",
+        "summary": "The October 21 issue reports Thanksgiving airfares up 31% year on year as jet-fuel costs rose, while United cut its profit outlook. It also describes record-low pending home sales and 7.4% mortgage rates, illustrating cost pressure across both discretionary travel and housing.",
+        "duration": "Read time not supplied",
+        "url": "https://www.morningbrew.com/issues/bumpy-ride"
+      }
+    ]
+  },
+  {
+    "end": "2026-10-30",
+    "start": "2026-10-24",
+    "sourceCount": 1,
+    "cutoff": "2026-10-26T13:04:00.446915+01:00",
+    "coverage": "Week-to-date through the stated cutoff. Only the October 25 Morning Boo editorial special was available for this window; two retail and small-business developments retained rather than padding the edition to five cards.",
+    "cards": [
+      {
+        "title": "Halloween demand pulls retail inventory forward",
+        "summary": "The October 25 special cites an NRF projection of $13.5 billion in US Halloween spending and says around a quarter of shoppers had bought seasonal goods by early August. Earlier displays help retailers bridge quiet trading periods and move inventory out of warehouses; the spending figure is a forecast, not a realised total.",
+        "duration": "Read time not supplied",
+        "url": "https://www.morningbrew.com/issues/morning-boo-2026"
+      },
+      {
+        "title": "Seasonal home decorating becomes a service business",
+        "summary": "The same special describes porch-decorating services charging from a few hundred dollars to $2,000, with some operators expanding or franchising. These examples show a paid convenience market emerging around holiday decorating, not proof that every entrant can reproduce the reported growth.",
+        "duration": "Read time not supplied",
+        "url": "https://www.morningbrew.com/issues/morning-boo-2026"
+      }
+    ]
   }
 ]

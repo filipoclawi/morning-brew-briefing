@@ -29,9 +29,9 @@ with sync_playwright() as p:
  b.close()
 for f in [r/'index.html',r/'editions.json',r/'styles.css',r/'README.md',*r.glob('editions/*/index.html')]:
  text=f.read_text();assert not re.search(r'@|Label_\d+|mbuuid|mbcid|utm_|/home/|kid=|ce0ae909|Armin|Hermes',text,re.I),f
-assert sum(e['sourceCount'] for e in data)==26
-assert len(data)==8 and sum(len(e['cards']) for e in data)==43
-assert data[-1]['end']=='2026-10-16'
-assert {e['end']:e['sourceCount'] for e in data if e['end']>='2026-10-09'}=={'2026-10-09':7,'2026-10-16':7}
-assert {e['end']:len(e['cards']) for e in data if e['end']>='2026-10-09'}=={'2026-10-09':6,'2026-10-16':7}
-print('PASS: root and 8 archives; 390/1440px; 43 unique cards; 26 source issues; navigation, links, privacy; no errors or overflow')
+assert sum(e['sourceCount'] for e in data)==34
+assert len(data)==10 and sum(len(e['cards']) for e in data)==50
+assert data[-1]['end']=='2026-10-30'
+assert {e['end']:e['sourceCount'] for e in data if e['end']>='2026-10-09'}=={'2026-10-09':7,'2026-10-16':7,'2026-10-23':7,'2026-10-30':1}
+assert {e['end']:len(e['cards']) for e in data if e['end']>='2026-10-09'}=={'2026-10-09':6,'2026-10-16':7,'2026-10-23':5,'2026-10-30':2}
+print('PASS: root and 10 archives; 390/1440px; 50 unique cards; 34 source issues; navigation, links, privacy; no errors or overflow')
