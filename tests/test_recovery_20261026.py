@@ -21,12 +21,12 @@ class RecoveryTests(unittest.TestCase):
 
     def test_two_recovery_editions_account_for_every_issue(self):
         self.assertEqual(self.by_end['2026-10-23']['sourceCount'], 7)
-        self.assertEqual(self.by_end['2026-10-30']['sourceCount'], 1)
+        self.assertEqual(self.by_end['2026-10-30']['sourceCount'], 5)
         self.assertEqual(len(self.by_end['2026-10-23']['cards']), 5)
-        self.assertEqual(len(self.by_end['2026-10-30']['cards']), 2)
+        self.assertEqual(len(self.by_end['2026-10-30']['cards']), 5)
         self.assertIn('Week-to-date', self.by_end['2026-10-30']['coverage'])
         self.assertIn('October 25', self.by_end['2026-10-30']['coverage'])
-        self.assertEqual(sum(e['sourceCount'] for e in self.data), sum(e['sourceCount'] for e in self.old) + 8)
+        self.assertEqual(sum(e['sourceCount'] for e in self.data), sum(e['sourceCount'] for e in self.old) + 12)
 
     def test_current_root_and_archive_are_identical(self):
         self.assertEqual(self.data[-1]['end'], '2026-10-30')
@@ -34,12 +34,13 @@ class RecoveryTests(unittest.TestCase):
         archive = (ROOT / 'editions/2026-10-30/index.html').read_text()
         self.assertEqual(root.replace('./styles.css', '../../styles.css').replace('href="./editions/', 'href="../../editions/'), archive)
         self.assertIn('Week-to-date', root)
-        self.assertIn('2 developments.', root)
+        self.assertIn('5 developments.', root)
 
     def test_new_cards_have_clean_matching_issue_links(self):
         permitted = {'https://www.morningbrew.com/issues/' + slug for slug in (
             'dynamic-duo', 'very-vulnerable', 'bumpy-ride', 'a-time-to-give',
-            'big-spending', 'basketball-brew', 'pepsi-challenged', 'morning-boo-2026')}
+            'big-spending', 'basketball-brew', 'pepsi-challenged', 'morning-boo-2026',
+            'lifting-the-veil', 'surprising-growth-spurt')}
         for key in ('2026-10-23', '2026-10-30'):
             for card in self.by_end[key]['cards']:
                 self.assertIn(card['url'], permitted)
